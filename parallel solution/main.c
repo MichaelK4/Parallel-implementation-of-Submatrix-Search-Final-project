@@ -158,7 +158,6 @@ int main(int argc, char** argv)
 		free(picturesForMaster);
 		printf("finished last free allocation rank 0\n");	
 		printf("---------------------\n");
-		MPI_Finalize();
 		
 	}
 	else if(rank == WORKER)
@@ -207,7 +206,7 @@ int main(int argc, char** argv)
 		printf("finished free allocation rank 1\n");
 		printf("---------------------\n");
 	}	
-	
+	MPI_Finalize();
 	return 0;
 }
 
