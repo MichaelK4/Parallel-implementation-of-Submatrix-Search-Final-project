@@ -11,7 +11,7 @@ To clear all write in the terminal: make clean
 Works for both the sequential solution and the parallel solution.
 
 # The parallelization
-The parallelization uses MPI and OpenMP, with MPI dividing the work on the pictures between two processes
+The parallelization uses MPI(Message Passing Interface) and OpenMP(Open Multi-Processing), with MPI  dividing the work on the pictures between two processes
 and OpenMP was used to assign each thread to process a subset of pictures and to execute multiple iterations of a loop in parallel.
 Each process recived two threads.
 
