@@ -130,10 +130,6 @@ int main(int argc, char** argv)
 		printf("---------------------\n");
 		
 		
-		
-		//printf("Tag = %d, if 1 can start printing to file if 0 still not\n", tag);	
-		
-		
 		if (!writeToOutputFile(pictures, numPictures))
 		{
 			printf("Failed to write to output file\n");
@@ -209,9 +205,3 @@ int main(int argc, char** argv)
 	MPI_Finalize();
 	return 0;
 }
-
-
-
-
-
-
