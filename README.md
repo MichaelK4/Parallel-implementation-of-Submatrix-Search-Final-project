@@ -15,4 +15,4 @@ The parallelization uses MPI(Message Passing Interface) and OpenMP(Open Multi-Pr
 and OpenMP was used to assign each thread to process a subset of pictures and to execute multiple iterations of a loop in parallel.
 Each process recived two threads.
 
-Overall with the sequential solution under Linux operating system with 4 cores runs on avg about 32.5 seconds and the parallel solution for about 17.6 seconds. 
+Overall with the sequential solution under Linux operating system with 4 cores runs on average about 32.5 seconds and the parallel solution for about 17.6 seconds. 
